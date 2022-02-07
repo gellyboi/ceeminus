@@ -147,7 +147,7 @@ andExp				: andExp AND unaryRelExp
 					| unaryRelExp
 					;
 
-unaryRelExp		: NOT unaryRelExp
+unaryRelExp			: NOT unaryRelExp
 					| relExp
 					;
 
